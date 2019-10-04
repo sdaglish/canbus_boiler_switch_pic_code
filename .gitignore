@@ -1,0 +1,10 @@
+dist/
+build/
+MPLABXLog.xml*
+log.*
+nbproject/Makefile-*
+nbproject/Package-*
+nbproject/private
+nbproject/private/*
+*.swp
+
