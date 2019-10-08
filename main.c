@@ -86,19 +86,23 @@
 //
 //  Expected can message format
 //      byte 0,1 = id of expected device
+//                  1 = boiler switch
 //      byte 2,3 = command
 //                  0 = switch output
 //      byte 4+  = parameters
 //                  command 0: 
 //                      param 0 = pin to switch
-//                      param 1 = 0 or 1 (on / off)        
+//                      param 1 = 0 or 1 (off / on)        
 //
 
 #define MAX_BUF_LEN 8
+#define DEVICE_ID   1
 
 int main(void) 
 {
-    uint16_t receive_id = 0;
+    uint8_t receive_id = 0;
+    uint16_t expected_id = 0;
+    int16_t receive_command = 0;
     uint8_t receive_msg_len = 0;
     uint8_t receive_msg_buf[MAX_BUF_LEN];
 
@@ -112,7 +116,7 @@ int main(void)
     port_b_driver_set_pin_to_input(2);
     port_b_driver_set_pin_to_output(3);
 
-    port_b_driver_set_pin_to_input(4);
+    port_a_driver_set_pin_to_input(4);
     
     ANSELB = 0X00;
 
@@ -140,6 +144,29 @@ int main(void)
             mcp2515_driver_read_can_message(&receive_id, &receive_msg_len, receive_msg_buf);
             mcp2515_driver_clear_rx0if();
             
+            expected_id = ((receive_msg_buf[1] << 8) + receive_msg_buf[0]);
+            receive_command = ((receive_msg_buf[3] << 8) + receive_msg_buf[2]);
+
+            if (DEVICE_ID == expected_id)
+            {
+                switch (receive_command)
+                {
+                    case 0:
+                        // switch output
+                        if (0 == receive_msg_buf[4])
+                        {
+                            port_a_driver_turn_output_low(0);
+                        }
+                        else if (1 == receive_msg_buf[4])
+                        {
+                            port_a_driver_turn_output_high(0);
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
     }
         
     return 0;

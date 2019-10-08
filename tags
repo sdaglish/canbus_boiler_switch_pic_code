@@ -1,0 +1,280 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/39e840e6/
+${OBJECTDIR}/main.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/main.o: main.c  nbproject\/Makefile-${CND_CONF}.mk$/;"	t
+${OBJECTDIR}/mcc_generated_files/clock.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/clock.o: mcc_generated_files\/clock.c  nbproject\/Makefile-${/;"	t
+${OBJECTDIR}/mcc_generated_files/interrupt_manager.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/interrupt_manager.o: mcc_generated_files\/interrupt_manager.c/;"	t
+${OBJECTDIR}/mcc_generated_files/mcc.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/mcc.o: mcc_generated_files\/mcc.c  nbproject\/Makefile-${CND_/;"	t
+${OBJECTDIR}/mcc_generated_files/pin_manager.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/pin_manager.o: mcc_generated_files\/pin_manager.c  nbproject\//;"	t
+${OBJECTDIR}/mcc_generated_files/system.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/system.o: mcc_generated_files\/system.c  nbproject\/Makefile-/;"	t
+${OBJECTDIR}/mcc_generated_files/traps.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/mcc_generated_files\/traps.o: mcc_generated_files\/traps.c  nbproject\/Makefile-${/;"	t
+${OBJECTDIR}/src/canbus/mcp2515_driver.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/src\/canbus\/mcp2515_driver.o: src\/canbus\/mcp2515_driver.c  nbproject\/Makefile-/;"	t
+${OBJECTDIR}/src/canbus/spi_driver.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/src\/canbus\/spi_driver.o: src\/canbus\/spi_driver.c  nbproject\/Makefile-${CND_CO/;"	t
+${OBJECTDIR}/src/io_drivers/port_a_driver.o	nbproject\\Makefile-default.mk	/^${OBJECTDIR}\/src\/io_drivers\/port_a_driver.o: src\/io_drivers\/port_a_driver.c  nbproject\/Mak/;"	t
+.all-impl	nbproject\\Makefile-impl.mk	/^.all-impl: .all-pre .depcheck-impl$/;"	t
+.all-post	Makefile	/^.all-post: .all-impl$/;"	t
+.all-pre	Makefile	/^.all-pre:$/;"	t
+.build-conf	nbproject\\Makefile-default.mk	/^.build-conf:  ${BUILD_SUBPROJECTS}$/;"	t
+.build-impl	nbproject\\Makefile-impl.mk	/^.build-impl: .build-pre$/;"	t
+.build-post	Makefile	/^.build-post: .build-impl$/;"	t
+.build-pre	Makefile	/^.build-pre:$/;"	t
+.build-subprojects	nbproject\\Makefile-default.mk	/^.build-subprojects:$/;"	t
+.clean-conf	nbproject\\Makefile-default.mk	/^.clean-conf: ${CLEAN_SUBPROJECTS}$/;"	t
+.clean-impl	nbproject\\Makefile-impl.mk	/^.clean-impl: .clean-pre$/;"	t
+.clean-post	Makefile	/^.clean-post: .clean-impl$/;"	t
+.clean-pre	Makefile	/^.clean-pre:$/;"	t
+.clean-subprojects	nbproject\\Makefile-default.mk	/^.clean-subprojects:$/;"	t
+.clobber-impl	nbproject\\Makefile-impl.mk	/^.clobber-impl: .clobber-pre .depcheck-impl$/;"	t
+.clobber-post	Makefile	/^.clobber-post: .clobber-impl$/;"	t
+.clobber-pre	Makefile	/^.clobber-pre:$/;"	t
+.dep.inc	nbproject\\Makefile-default.mk	/^.dep.inc: .depcheck-impl$/;"	t
+.depcheck-impl	nbproject\\Makefile-impl.mk	/^.depcheck-impl:$/;"	t
+.help-post	Makefile	/^.help-post: .help-impl$/;"	t
+.help-pre	Makefile	/^.help-pre:$/;"	t
+ALLCONFS	nbproject\\Makefile-impl.mk	/^ALLCONFS=default $/;"	m
+ASFLAGS	nbproject\\Makefile-default.mk	/^ASFLAGS=$/;"	m
+BUILD_SUBPROJECTS	nbproject\\Makefile-impl.mk	/^BUILD_SUBPROJECTS=${BUILD_SUBPROJECTS_${SUBPROJECTS}}$/;"	m
+BUILD_SUBPROJECTS_	nbproject\\Makefile-impl.mk	/^BUILD_SUBPROJECTS_=.build-subprojects$/;"	m
+BUILD_SUBPROJECTS_NO	nbproject\\Makefile-impl.mk	/^BUILD_SUBPROJECTS_NO=$/;"	m
+CAN_1000KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_1000KBPS /;"	d
+CAN_100KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_100KBPS /;"	d
+CAN_10KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_10KBPS /;"	d
+CAN_125KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_125KBPS /;"	d
+CAN_200KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_200KBPS /;"	d
+CAN_20KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_20KBPS /;"	d
+CAN_250KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_250KBPS /;"	d
+CAN_25KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_25KBPS /;"	d
+CAN_31K25BPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_31K25BPS /;"	d
+CAN_33KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_33KBPS /;"	d
+CAN_40KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_40KBPS /;"	d
+CAN_500KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_500KBPS /;"	d
+CAN_50KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_50KBPS /;"	d
+CAN_5KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_5KBPS /;"	d
+CAN_666KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_666KBPS /;"	d
+CAN_80KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_80KBPS /;"	d
+CAN_83K3BPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_83K3BPS /;"	d
+CAN_95KBPS	src\\canbus\\mcp2515_reg.h	/^#define CAN_95KBPS /;"	d
+CCADMIN	Makefile	/^CCADMIN=CCadmin$/;"	m
+CFLAGS	nbproject\\Makefile-default.mk	/^CFLAGS=$/;"	m
+CLEAN_SUBPROJECTS	nbproject\\Makefile-impl.mk	/^CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}$/;"	m
+CLEAN_SUBPROJECTS_	nbproject\\Makefile-impl.mk	/^CLEAN_SUBPROJECTS_=.clean-subprojects$/;"	m
+CLEAN_SUBPROJECTS_NO	nbproject\\Makefile-impl.mk	/^CLEAN_SUBPROJECTS_NO=$/;"	m
+CLOCK_H	mcc_generated_files\\clock.h	/^#define	CLOCK_H$/;"	d
+CLOCK_Initialize	mcc_generated_files\\clock.c	/^void CLOCK_Initialize(void)$/;"	f	typeref:typename:void
+CLOCK_InstructionFrequencyGet	mcc_generated_files\\clock.h	/^#define CLOCK_InstructionFrequencyGet(/;"	d
+CLOCK_PeripheralFrequencyGet	mcc_generated_files\\clock.h	/^#define CLOCK_PeripheralFrequencyGet(/;"	d
+CLOCK_SystemFrequencyGet	mcc_generated_files\\clock.h	/^#define CLOCK_SystemFrequencyGet(/;"	d
+CND_ARTIFACT_DIR_default	nbproject\\Makefile-variables.mk	/^CND_ARTIFACT_DIR_default=dist\/default\/production$/;"	m
+CND_ARTIFACT_NAME_default	nbproject\\Makefile-variables.mk	/^CND_ARTIFACT_NAME_default=canbus_boiler_switch_v1.X.production.hex$/;"	m
+CND_ARTIFACT_PATH_default	nbproject\\Makefile-variables.mk	/^CND_ARTIFACT_PATH_default=dist\/default\/production\/canbus_boiler_switch_v1.X.production.hex$/;"	m
+CND_BASEDIR	nbproject\\Makefile-variables.mk	/^CND_BASEDIR=`pwd`$/;"	m
+CND_CONF	nbproject\\Makefile-default.mk	/^CND_CONF=default$/;"	m
+CND_PACKAGE_DIR_default	nbproject\\Makefile-variables.mk	/^CND_PACKAGE_DIR_default=${CND_DISTDIR}\/default\/package$/;"	m
+CND_PACKAGE_NAME_default	nbproject\\Makefile-variables.mk	/^CND_PACKAGE_NAME_default=canbusboilerswitchv1.x.tar$/;"	m
+CND_PACKAGE_PATH_default	nbproject\\Makefile-variables.mk	/^CND_PACKAGE_PATH_default=${CND_DISTDIR}\/default\/package\/canbusboilerswitchv1.x.tar$/;"	m
+COMPARISON_BUILD	nbproject\\Makefile-default.mk	/^COMPARISON_BUILD=$/;"	m
+COMPARISON_BUILD	nbproject\\Makefile-default.mk	/^COMPARISON_BUILD=-mafrlcsj$/;"	m
+CONF	nbproject\\Makefile-impl.mk	/^CONF=${DEFAULTCONF}$/;"	m
+CP	Makefile	/^CP=cp$/;"	m
+CP	nbproject\\Makefile-default.mk	/^CP=cp $/;"	m
+DEBUGGABLE_SUFFIX	nbproject\\Makefile-default.mk	/^DEBUGGABLE_SUFFIX=elf$/;"	m
+DEFAULTCONF	nbproject\\Makefile-impl.mk	/^DEFAULTCONF=default$/;"	m
+DEPFILES	nbproject\\Makefile-default.mk	/^DEPFILES=$(shell mplabwildcard ${POSSIBLE_DEPFILES})$/;"	m
+DEP_GEN	nbproject\\Makefile-local-default.mk	/^DEP_GEN=${MP_JAVA_PATH}java -jar "C:\/Program Files (x86)\/Microchip\/MPLABX\/v5.20\/mplab_platf/;"	m
+DISTDIR	nbproject\\Makefile-default.mk	/^DISTDIR=dist\/${CND_CONF}\/${IMAGE_TYPE}$/;"	m
+ERROR_HANDLER	mcc_generated_files\\traps.c	/^#define ERROR_HANDLER /;"	d	file:
+ERROR_HANDLER_NORETURN	mcc_generated_files\\traps.c	/^#define ERROR_HANDLER_NORETURN /;"	d	file:
+FAILSAFE_STACK_GUARDSIZE	mcc_generated_files\\traps.c	/^#define FAILSAFE_STACK_GUARDSIZE /;"	d	file:
+FCY	main.c	/^#define FCY /;"	d	file:
+FINAL_IMAGE	nbproject\\Makefile-default.mk	/^FINAL_IMAGE=dist\/${CND_CONF}\/${IMAGE_TYPE}\/canbus_boiler_switch_v1.X.${IMAGE_TYPE}.${OUTPUT_S/;"	m
+FIXDEPS	nbproject\\Makefile-default.mk	/^FIXDEPS=fixDeps$/;"	m
+IMAGE_TYPE	nbproject\\Makefile-default.mk	/^IMAGE_TYPE=debug$/;"	m
+IMAGE_TYPE	nbproject\\Makefile-default.mk	/^IMAGE_TYPE=production$/;"	m
+INTERRUPT_GlobalDisable	mcc_generated_files\\interrupt_manager.h	/^inline static void INTERRUPT_GlobalDisable(void)$/;"	f	typeref:typename:void
+INTERRUPT_GlobalEnable	mcc_generated_files\\interrupt_manager.h	/^inline static void INTERRUPT_GlobalEnable(void)$/;"	f	typeref:typename:void
+INTERRUPT_Initialize	mcc_generated_files\\interrupt_manager.c	/^void INTERRUPT_Initialize (void)$/;"	f	typeref:typename:void
+LDLIBSOPTIONS	nbproject\\Makefile-default.mk	/^LDLIBSOPTIONS=$/;"	m
+MCC_H	mcc_generated_files\\mcc.h	/^#define	MCC_H$/;"	d
+MCP_16MHZ	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHZ /;"	d
+MCP_16MHz_1000kBPS_CFG1	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_1000kBPS_CFG1 /;"	d
+MCP_16MHz_1000kBPS_CFG2	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_1000kBPS_CFG2 /;"	d
+MCP_16MHz_1000kBPS_CFG3	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_1000kBPS_CFG3 /;"	d
+MCP_16MHz_5kBPS_CFG1	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_5kBPS_CFG1 /;"	d
+MCP_16MHz_5kBPS_CFG2	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_5kBPS_CFG2 /;"	d
+MCP_16MHz_5kBPS_CFG3	src\\canbus\\mcp2515_reg.h	/^#define MCP_16MHz_5kBPS_CFG3 /;"	d
+MCP_8MHZ	src\\canbus\\mcp2515_reg.h	/^#define MCP_8MHZ /;"	d
+MCP_BFPCTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_BFPCTRL /;"	d
+MCP_BIT_MODIFY	src\\canbus\\mcp2515_reg.h	/^#define MCP_BIT_MODIFY /;"	d
+MCP_CANCTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_CANCTRL /;"	d
+MCP_CANINTE	src\\canbus\\mcp2515_reg.h	/^#define MCP_CANINTE /;"	d
+MCP_CANINTF	src\\canbus\\mcp2515_reg.h	/^#define MCP_CANINTF /;"	d
+MCP_CANSTAT	src\\canbus\\mcp2515_reg.h	/^#define MCP_CANSTAT /;"	d
+MCP_CNF1	src\\canbus\\mcp2515_reg.h	/^#define MCP_CNF1 /;"	d
+MCP_CNF2	src\\canbus\\mcp2515_reg.h	/^#define MCP_CNF2 /;"	d
+MCP_CNF3	src\\canbus\\mcp2515_reg.h	/^#define MCP_CNF3 /;"	d
+MCP_MAX_STD_BUF_SIZE	src\\canbus\\mcp2515_reg.h	/^#define MCP_MAX_STD_BUF_SIZE /;"	d
+MCP_READ	src\\canbus\\mcp2515_reg.h	/^#define MCP_READ /;"	d
+MCP_READ_BUF_RX0	src\\canbus\\mcp2515_reg.h	/^#define MCP_READ_BUF_RX0 /;"	d
+MCP_READ_STATUS	src\\canbus\\mcp2515_reg.h	/^#define MCP_READ_STATUS /;"	d
+MCP_RESET	src\\canbus\\mcp2515_reg.h	/^#define MCP_RESET /;"	d
+MCP_RXB0CTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_RXB0CTRL /;"	d
+MCP_RXB0SIDH	src\\canbus\\mcp2515_reg.h	/^#define MCP_RXB0SIDH /;"	d
+MCP_RXB1CTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_RXB1CTRL /;"	d
+MCP_RXB1SIDH	src\\canbus\\mcp2515_reg.h	/^#define MCP_RXB1SIDH /;"	d
+MCP_TXB0CTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0CTRL /;"	d
+MCP_TXB0D0	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D0 /;"	d
+MCP_TXB0D1	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D1 /;"	d
+MCP_TXB0D2	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D2 /;"	d
+MCP_TXB0D3	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D3 /;"	d
+MCP_TXB0D4	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D4 /;"	d
+MCP_TXB0D5	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D5 /;"	d
+MCP_TXB0D6	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D6 /;"	d
+MCP_TXB0D7	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0D7 /;"	d
+MCP_TXB0DLC	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0DLC /;"	d
+MCP_TXB0EID0	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0EID0 /;"	d
+MCP_TXB0EID8	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0EID8 /;"	d
+MCP_TXB0SIDH	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0SIDH /;"	d
+MCP_TXB0SIDL	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB0SIDL /;"	d
+MCP_TXB1CTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB1CTRL /;"	d
+MCP_TXB1SIDH	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB1SIDH /;"	d
+MCP_TXB2CTRL	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB2CTRL /;"	d
+MCP_TXB2SIDH	src\\canbus\\mcp2515_reg.h	/^#define MCP_TXB2SIDH /;"	d
+MCP_WRITE	src\\canbus\\mcp2515_reg.h	/^#define MCP_WRITE /;"	d
+MKDIR	Makefile	/^MKDIR=mkdir$/;"	m
+MKDIR	nbproject\\Makefile-default.mk	/^MKDIR=gnumkdir -p$/;"	m
+MP_AR	nbproject\\Makefile-local-default.mk	/^MP_AR="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin\\xc16-ar.exe"$/;"	m
+MP_AR_DIR	nbproject\\Makefile-local-default.mk	/^MP_AR_DIR="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin"$/;"	m
+MP_AS	nbproject\\Makefile-local-default.mk	/^MP_AS="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin\\xc16-as.exe"$/;"	m
+MP_AS_DIR	nbproject\\Makefile-local-default.mk	/^MP_AS_DIR="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin"$/;"	m
+MP_CC	nbproject\\Makefile-local-default.mk	/^MP_CC="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin\\xc16-gcc.exe"$/;"	m
+MP_CC_DIR	nbproject\\Makefile-local-default.mk	/^MP_CC_DIR="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin"$/;"	m
+MP_JAVA_PATH	nbproject\\Makefile-local-default.mk	/^MP_JAVA_PATH="C:\\Program Files (x86)\\Microchip\\MPLABX\\v5.20\\sys\\java\\jre1.8.0_181\/bin\/"$/;"	m
+MP_LD	nbproject\\Makefile-local-default.mk	/^MP_LD="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin\\xc16-ld.exe"$/;"	m
+MP_LD_DIR	nbproject\\Makefile-local-default.mk	/^MP_LD_DIR="C:\\Program Files (x86)\\Microchip\\xc16\\v1.41\\bin"$/;"	m
+MP_LINKER_FILE_OPTION	nbproject\\Makefile-default.mk	/^MP_LINKER_FILE_OPTION=,--script=p24FJ256GA702.gld$/;"	m
+MP_PROCESSOR_OPTION	nbproject\\Makefile-default.mk	/^MP_PROCESSOR_OPTION=24FJ256GA702$/;"	m
+MV	nbproject\\Makefile-default.mk	/^MV=mv $/;"	m
+OBJECTDIR	nbproject\\Makefile-default.mk	/^OBJECTDIR=build\/${CND_CONF}\/${IMAGE_TYPE}$/;"	m
+OBJECTFILES	nbproject\\Makefile-default.mk	/^OBJECTFILES=${OBJECTDIR}\/src\/io_drivers\/port_a_driver.o ${OBJECTDIR}\/src\/canbus\/mcp2515_dr/;"	m
+OBJECTFILES_QUOTED_IF_SPACED	nbproject\\Makefile-default.mk	/^OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}\/src\/io_drivers\/port_a_driver.o ${OBJECTDIR}\/src\/c/;"	m
+OSCILLATOR_Initialize	mcc_generated_files\\mcc.c	/^void OSCILLATOR_Initialize(void)$/;"	f	typeref:typename:void
+OS_CURRENT	nbproject\\Makefile-local-default.mk	/^OS_CURRENT="$(shell uname -s)"$/;"	m
+OUTPUT_SUFFIX	nbproject\\Makefile-default.mk	/^OUTPUT_SUFFIX=elf$/;"	m
+OUTPUT_SUFFIX	nbproject\\Makefile-default.mk	/^OUTPUT_SUFFIX=hex$/;"	m
+PATH	nbproject\\Makefile-local-default.mk	/^PATH:=C:\/Program Files (x86)\/Microchip\/MPLABX\/v5.20\/mplab_platform\/platform\/..\/mplab_ide/;"	m
+PATH_TO_IDE_BIN	nbproject\\Makefile-local-default.mk	/^PATH_TO_IDE_BIN=C:\/Program Files (x86)\/Microchip\/MPLABX\/v5.20\/mplab_platform\/platform\/..\//;"	m
+PIN_INDEX_MAX	src\\io_drivers\\port_a_driver.c	/^static const uint8_t PIN_INDEX_MAX = 15;$/;"	v	typeref:typename:const uint8_t	file:
+PIN_MANAGER_Initialize	mcc_generated_files\\pin_manager.c	/^void PIN_MANAGER_Initialize (void)$/;"	f	typeref:typename:void
+POSSIBLE_DEPFILES	nbproject\\Makefile-default.mk	/^POSSIBLE_DEPFILES=${OBJECTDIR}\/src\/io_drivers\/port_a_driver.o.d ${OBJECTDIR}\/src\/canbus\/mc/;"	m
+PROJECTNAME	nbproject\\Makefile-impl.mk	/^PROJECTNAME=canbus_boiler_switch_v1.X$/;"	m
+RANLIB	Makefile	/^RANLIB=ranlib$/;"	m
+RM	nbproject\\Makefile-default.mk	/^RM=rm -f $/;"	m
+SHELL	nbproject\\Makefile-local-default.mk	/^SHELL=cmd.exe$/;"	m
+SOURCEFILES	nbproject\\Makefile-default.mk	/^SOURCEFILES=src\/io_drivers\/port_a_driver.c src\/canbus\/mcp2515_driver.c src\/canbus\/spi_driv/;"	m
+SOURCEFILES_QUOTED_IF_SPACED	nbproject\\Makefile-default.mk	/^SOURCEFILES_QUOTED_IF_SPACED=src\/io_drivers\/port_a_driver.c src\/canbus\/mcp2515_driver.c src\//;"	m
+SUBPROJECTS	nbproject\\Makefile-impl.mk	/^SUBPROJECTS=${SUB_${SUB}}$/;"	m
+SUB_IMAGE_ADDRESS_COMMAND	nbproject\\Makefile-default.mk	/^SUB_IMAGE_ADDRESS_COMMAND=$/;"	m
+SUB_IMAGE_ADDRESS_COMMAND	nbproject\\Makefile-default.mk	/^SUB_IMAGE_ADDRESS_COMMAND=--image-address $(SUB_IMAGE_ADDRESS)$/;"	m
+SUB_no	nbproject\\Makefile-impl.mk	/^SUB_no=NO$/;"	m
+SYSTEM_H	mcc_generated_files\\system.h	/^#define	SYSTEM_H$/;"	d
+SYSTEM_Initialize	mcc_generated_files\\system.c	/^void SYSTEM_Initialize(void)$/;"	f	typeref:typename:void
+TRAPS_ADDRESS_ERR	mcc_generated_files\\traps.h	/^    TRAPS_ADDRESS_ERR = 2, \/** Address Error Trap Vector *\/$/;"	e	enum:__anon339cffd40103
+TRAPS_ERROR_CODE	mcc_generated_files\\traps.h	/^} TRAPS_ERROR_CODE;$/;"	t	typeref:enum:__anon339cffd40103
+TRAPS_MATH_ERR	mcc_generated_files\\traps.h	/^    TRAPS_MATH_ERR = 3, \/** Math Error Trap Vector *\/$/;"	e	enum:__anon339cffd40103
+TRAPS_NVM_ERR	mcc_generated_files\\traps.h	/^    TRAPS_NVM_ERR = 7, \/** NVM Error Trap Vector *\/$/;"	e	enum:__anon339cffd40103
+TRAPS_OSC_FAIL	mcc_generated_files\\traps.h	/^    TRAPS_OSC_FAIL = 0, \/** Oscillator Fail Trap vector *\/$/;"	e	enum:__anon339cffd40103
+TRAPS_STACK_ERR	mcc_generated_files\\traps.h	/^    TRAPS_STACK_ERR = 1, \/** Stack Error Trap Vector *\/$/;"	e	enum:__anon339cffd40103
+TRAPS_error_code	mcc_generated_files\\traps.c	/^static uint16_t TRAPS_error_code = -1;$/;"	v	typeref:typename:uint16_t	file:
+TRAPS_halt_on_error	mcc_generated_files\\traps.c	/^void __attribute__((naked, noreturn, weak)) TRAPS_halt_on_error(uint16_t code)$/;"	f	typeref:typename:void
+_AddressError	mcc_generated_files\\traps.c	/^void ERROR_HANDLER_NORETURN _AddressError(void)$/;"	f	typeref:typename:void ERROR_HANDLER_NORETURN
+_INTERRUPT_MANAGER_H	mcc_generated_files\\interrupt_manager.h	/^#define _INTERRUPT_MANAGER_H$/;"	d
+_IO_DRIVER_H	src\\io_drivers\\io_driver.h	/^#define _IO_DRIVER_H$/;"	d
+_MCP2515_DRIVER_H	src\\canbus\\mcp2515_driver.h	/^#define _MCP2515_DRIVER_H$/;"	d
+_MCP2515_REG_H	src\\canbus\\mcp2515_reg.h	/^#define _MCP2515_REG_H$/;"	d
+_MathError	mcc_generated_files\\traps.c	/^void ERROR_HANDLER_NORETURN _MathError(void)$/;"	f	typeref:typename:void ERROR_HANDLER_NORETURN
+_NVMError	mcc_generated_files\\traps.c	/^void ERROR_HANDLER_NORETURN _NVMError(void)$/;"	f	typeref:typename:void ERROR_HANDLER_NORETURN
+_OscillatorFail	mcc_generated_files\\traps.c	/^void ERROR_HANDLER_NORETURN _OscillatorFail(void)$/;"	f	typeref:typename:void ERROR_HANDLER_NORETURN
+_PIN_MANAGER_H	mcc_generated_files\\pin_manager.h	/^#define _PIN_MANAGER_H$/;"	d
+_PORT_A_DRIVER_H	src\\io_drivers\\port_a_driver.h	/^#define _PORT_A_DRIVER_H$/;"	d
+_StackError	mcc_generated_files\\traps.c	/^void ERROR_HANDLER_NORETURN _StackError(void)$/;"	f	typeref:typename:void ERROR_HANDLER_NORETURN
+_TRAPS_H	mcc_generated_files\\traps.h	/^#define _TRAPS_H$/;"	d
+_XTAL_FREQ	mcc_generated_files\\clock.h	/^#define _XTAL_FREQ /;"	d
+_XTAL_FREQ	mcc_generated_files\\mcc.h	/^#define _XTAL_FREQ /;"	d
+__anon339cffd40103	mcc_generated_files\\traps.h	/^{$/;"	g
+__anon477971f40103	src\\io_drivers\\io_driver.h	/^enum {$/;"	g
+all	Makefile	/^all: .all-post$/;"	t
+and_together	src\\io_drivers\\port_a_driver.c	/^static inline uint16_t and_together(uint16_t x, uint16_t y)$/;"	f	typeref:typename:uint16_t	file:
+bit_modify_register	src\\canbus\\mcp2515_driver.c	/^static void bit_modify_register(uint8_t address, uint8_t mask, uint8_t data)$/;"	f	typeref:typename:void	file:
+build	Makefile	/^build: .build-post$/;"	t
+change_mode	src\\canbus\\mcp2515_driver.c	/^static bool change_mode(uint8_t mode)$/;"	f	typeref:typename:bool	file:
+checkReturnCode	nbproject\\Package-default.bash	/^function checkReturnCode$/;"	f
+check_bit	src\\canbus\\mcp2515_driver.c	/^static inline bool check_bit(uint8_t value, uint8_t bit)$/;"	f	typeref:typename:bool	file:
+check_bit	src\\io_drivers\\port_a_driver.c	/^static inline bool check_bit(uint16_t value, uint8_t bit)$/;"	f	typeref:typename:bool	file:
+clean	Makefile	/^clean: .clean-post$/;"	t
+clear_bit	src\\canbus\\mcp2515_driver.c	/^static inline uint8_t clear_bit(uint8_t value, uint8_t bit)$/;"	f	typeref:typename:uint8_t	file:
+clear_bit	src\\io_drivers\\port_a_driver.c	/^static inline uint16_t clear_bit(uint16_t value, uint8_t bit)$/;"	f	typeref:typename:uint16_t	file:
+clobber	Makefile	/^clobber: .clobber-post$/;"	t
+com-microchip-mplab-nbide-embedded-makeproject-MakeProject.md5	nbproject\\Makefile-genesis.properties	/^com-microchip-mplab-nbide-embedded-makeproject-MakeProject.md5=37eccb08230908d044ad3fe14e24ea9a$/;"	k
+conf.ids	nbproject\\Makefile-genesis.properties	/^conf.ids=default$/;"	k
+configurations-xml	nbproject\\Makefile-genesis.properties	/^configurations-xml=589f8eff2c28ffec62c997599f20d31a$/;"	k
+copyFileToTmpDir	nbproject\\Package-default.bash	/^function copyFileToTmpDir$/;"	f
+cs_high	src\\canbus\\mcp2515_driver.c	/^static inline void cs_high(void)$/;"	f	typeref:typename:void	file:
+cs_low	src\\canbus\\mcp2515_driver.c	/^static inline void cs_low(void)$/;"	f	typeref:typename:void	file:
+default.com-microchip-mplab-nbide-toolchainXC16-XC16LanguageToolchain.md5	nbproject\\Makefile-genesis.properties	/^default.com-microchip-mplab-nbide-toolchainXC16-XC16LanguageToolchain.md5=a53e8c22b31e6f5bcc1968/;"	k
+default.languagetoolchain.dir	nbproject\\Makefile-genesis.properties	/^default.languagetoolchain.dir=C\\:\\\\Program Files (x86)\\\\Microchip\\\\xc16\\\\v1.41\\\\bin$/;"	k
+default.languagetoolchain.version	nbproject\\Makefile-genesis.properties	/^default.languagetoolchain.version=1.41$/;"	k
+dist/${CND_CONF}/${IMAGE_TYPE}/canbus_boiler_switch_v1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}	nbproject\\Makefile-default.mk	/^dist\/${CND_CONF}\/${IMAGE_TYPE}\/canbus_boiler_switch_v1.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OB/;"	t
+help	Makefile	/^help: .help-post$/;"	t
+host.platform	nbproject\\Makefile-genesis.properties	/^host.platform=windows$/;"	k
+init_rx_buffers	src\\canbus\\mcp2515_driver.c	/^static void init_rx_buffers(void)$/;"	f	typeref:typename:void	file:
+invert	src\\io_drivers\\port_a_driver.c	/^static inline uint16_t invert(uint16_t v)$/;"	f	typeref:typename:uint16_t	file:
+is_can_clock_within_bounds	src\\canbus\\mcp2515_driver.c	/^static bool is_can_clock_within_bounds(uint8_t value)$/;"	f	typeref:typename:bool	file:
+is_can_speed_within_bounds	src\\canbus\\mcp2515_driver.c	/^static bool is_can_speed_within_bounds(uint8_t value)$/;"	f	typeref:typename:bool	file:
+main	main.c	/^int main(void) $/;"	f	typeref:typename:int
+makeDirectory	nbproject\\Package-default.bash	/^function makeDirectory$/;"	f
+mcp2515_driver_clear_rx0if	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_clear_rx0if(void)$/;"	f	typeref:typename:bool
+mcp2515_driver_init_can_buffers	src\\canbus\\mcp2515_driver.c	/^void mcp2515_driver_init_can_buffers(void)$/;"	f	typeref:typename:void
+mcp2515_driver_read_can_message	src\\canbus\\mcp2515_driver.c	/^void mcp2515_driver_read_can_message(uint8_t * id, uint8_t * len,$/;"	f	typeref:typename:void
+mcp2515_driver_reset	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_reset(void)$/;"	f	typeref:typename:bool
+mcp2515_driver_send_msg_buffer	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_send_msg_buffer(uint16_t can_id, uint8_t ext,$/;"	f	typeref:typename:bool
+mcp2515_driver_set_b0bfe	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_set_b0bfe(void)$/;"	f	typeref:typename:bool
+mcp2515_driver_set_b0bfm	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_set_b0bfm(void)$/;"	f	typeref:typename:bool
+mcp2515_driver_set_baudrate	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_driver_set_baudrate(uint8_t can_speed, uint8_t can_clock)$/;"	f	typeref:typename:bool
+mcp2515_init	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_init(void)$/;"	f	typeref:typename:bool
+mcp2515_rx0_is_full	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_rx0_is_full(void)$/;"	f	typeref:typename:bool
+mcp2515_set_rx0ie	src\\canbus\\mcp2515_driver.c	/^bool mcp2515_set_rx0ie(void)$/;"	f	typeref:typename:bool
+ns25ef401e0101	nbproject\\project.xml	/^<project xmlns="http:\/\/www.netbeans.org\/ns\/project\/1">$/;"	n	uri:http://www.netbeans.org/ns/project/1
+ns25ef401e0201	nbproject\\project.xml	/^        <data xmlns="http:\/\/www.netbeans.org\/ns\/make-project\/1">$/;"	n	uri:http://www.netbeans.org/ns/make-project/1
+nsc34ea5d90101	nbproject\\private\\private.xml	/^<project-private xmlns="http:\/\/www.netbeans.org\/ns\/project-private\/1">$/;"	n	uri:http://www.netbeans.org/ns/project-private/1
+nsc34ea5d90201	nbproject\\private\\private.xml	/^    <editor-bookmarks xmlns="http:\/\/www.netbeans.org\/ns\/editor-bookmarks\/2" lastBookmarkId=/;"	n	uri:http://www.netbeans.org/ns/editor-bookmarks/2
+nsc34ea5d90301	nbproject\\private\\private.xml	/^    <open-files xmlns="http:\/\/www.netbeans.org\/ns\/projectui-open-files\/2">$/;"	n	uri:http://www.netbeans.org/ns/projectui-open-files/2
+ok	src\\io_drivers\\io_driver.h	/^    ok,       \/\/ Pin index was within bounds$/;"	e	enum:__anon477971f40103
+pin_is_set_to_output	src\\io_drivers\\port_a_driver.c	/^static inline bool pin_is_set_to_output(uint8_t pin)$/;"	f	typeref:typename:bool	file:
+pin_within_bounds	src\\io_drivers\\port_a_driver.c	/^static inline bool pin_within_bounds(uint8_t pin)$/;"	f	typeref:typename:bool	file:
+port_a_driver_set_all_to_input	src\\io_drivers\\port_a_driver.c	/^void port_a_driver_set_all_to_input(void)$/;"	f	typeref:typename:void
+port_a_driver_set_all_to_output	src\\io_drivers\\port_a_driver.c	/^void port_a_driver_set_all_to_output(void)$/;"	f	typeref:typename:void
+port_a_driver_set_pin_to_input	src\\io_drivers\\port_a_driver.c	/^uint8_t port_a_driver_set_pin_to_input(uint8_t pin)$/;"	f	typeref:typename:uint8_t
+port_a_driver_set_pin_to_output	src\\io_drivers\\port_a_driver.c	/^uint8_t port_a_driver_set_pin_to_output(uint8_t pin)$/;"	f	typeref:typename:uint8_t
+port_a_driver_turn_all_outputs_high	src\\io_drivers\\port_a_driver.c	/^void port_a_driver_turn_all_outputs_high(void)$/;"	f	typeref:typename:void
+port_a_driver_turn_all_outputs_low	src\\io_drivers\\port_a_driver.c	/^void port_a_driver_turn_all_outputs_low(void)$/;"	f	typeref:typename:void
+port_a_driver_turn_output_high	src\\io_drivers\\port_a_driver.c	/^uint8_t port_a_driver_turn_output_high(uint8_t pin)$/;"	f	typeref:typename:uint8_t
+port_a_driver_turn_output_low	src\\io_drivers\\port_a_driver.c	/^uint8_t port_a_driver_turn_output_low(uint8_t pin)$/;"	f	typeref:typename:uint8_t
+project	_vimrc	/^augroup project   $/;"	a
+read_mode	src\\canbus\\mcp2515_driver.c	/^static uint8_t read_mode(void)$/;"	f	typeref:typename:uint8_t	file:
+read_register	src\\canbus\\mcp2515_driver.c	/^static uint8_t read_register(uint8_t address)$/;"	f	typeref:typename:uint8_t	file:
+read_status	src\\canbus\\mcp2515_driver.c	/^static uint8_t read_status(void)$/;"	f	typeref:typename:uint8_t	file:
+set_bit	src\\canbus\\mcp2515_driver.c	/^static inline uint8_t set_bit(uint8_t value, uint8_t bit)$/;"	f	typeref:typename:uint8_t	file:
+set_bit	src\\io_drivers\\port_a_driver.c	/^static inline uint16_t set_bit(uint16_t value, uint8_t bit)$/;"	f	typeref:typename:uint16_t	file:
+set_register	src\\canbus\\mcp2515_driver.c	/^static void set_register(uint8_t address, uint8_t value)$/;"	f	typeref:typename:void	file:
+set_register_bit	src\\canbus\\mcp2515_driver.c	/^static bool set_register_bit(uint8_t address, uint8_t bit)$/;"	f	typeref:typename:bool	file:
+spi_driver_cs_high	src\\canbus\\spi_driver.c	/^void spi_driver_cs_high(void)$/;"	f	typeref:typename:void
+spi_driver_cs_low	src\\canbus\\spi_driver.c	/^void spi_driver_cs_low(void)$/;"	f	typeref:typename:void
+spi_driver_exchange	src\\canbus\\spi_driver.c	/^uint8_t spi_driver_exchange(uint8_t data)$/;"	f	typeref:typename:uint8_t
+spi_driver_init	src\\canbus\\spi_driver.c	/^void spi_driver_init(void)$/;"	f	typeref:typename:void
+too_high	src\\io_drivers\\io_driver.h	/^    too_high, \/\/ Pin index was too high$/;"	e	enum:__anon477971f40103
+use_failsafe_stack	mcc_generated_files\\traps.c	/^inline static void use_failsafe_stack(void)$/;"	f	typeref:typename:void	file:
+write_register	src\\canbus\\mcp2515_driver.c	/^static void write_register(uint8_t address, uint8_t value)$/;"	f	typeref:typename:void	file:
