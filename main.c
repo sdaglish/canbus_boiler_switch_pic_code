@@ -3,6 +3,8 @@
  * Author: scdag
  *
  * Created on 04 October 2019, 15:36
+ *
+ * @version     1.2
  */
 
 
@@ -74,6 +76,8 @@
 //
 //	Outputs
 //		RA0 = switch output
+//		    1 = switch off
+//		    0 = switch on
 //
 //  SPI pins
 //      cs =   RB0
@@ -155,11 +159,11 @@ int main(void)
                         // switch output
                         if (0 == receive_msg_buf[4])
                         {
-                            port_a_driver_turn_output_low(0);
+                            port_a_driver_turn_output_high(0);
                         }
                         else if (1 == receive_msg_buf[4])
                         {
-                            port_a_driver_turn_output_high(0);
+                            port_a_driver_turn_output_low(0);
                         }
                         break;
                     default:
