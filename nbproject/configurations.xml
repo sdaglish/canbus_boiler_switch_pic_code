@@ -24,6 +24,7 @@
             <itemPath>mcc_generated_files/mcc.h</itemPath>
             <itemPath>mcc_generated_files/system.h</itemPath>
         </logicalFolder>
+        <itemPath>src/config.h</itemPath>
     </logicalFolder>
 
     <logicalFolder name="LinkerScript"
