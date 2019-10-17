@@ -15,4 +15,6 @@
 
 * Branch v2 created to start using the canbus_controller module
 * All calls to mcp_driver have been removed and replaced with calls to canbus_controller
+* With a few changes to the arduino send program, the canbus_controller module appears to be working as expected.
+    * It is currently being tested while working as the boiler switch and I will do further updates to the module while I am waiting.
 
