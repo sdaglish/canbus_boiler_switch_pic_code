@@ -16,8 +16,10 @@
 #include <xc.h>
 #include "src/io_drivers/port_a_driver.h"
 #include "src/io_drivers/port_b_driver.h"
+
 #include "src/canbus/spi_driver.h"
 #include "src/canbus/mcp2515_driver.h"
+#include "src/canbus/canbus_controller.h"
 #include "src/config.h"
 #include <libpic30.h>
 
@@ -53,10 +55,11 @@
 
 int main(void) 
 {
-    uint8_t receive_id = 0;
+    uint16_t device_id = id_boiler_switch;
+    //uint16_t receive_id = 0;
     uint16_t expected_id = 0;
     int16_t receive_command = 0;
-    uint8_t receive_msg_len = 0;
+    //uint8_t receive_msg_len = 0;
     uint8_t receive_msg_buf[MAX_BUF_LEN];
 
     // Init pins
@@ -86,39 +89,63 @@ int main(void)
 
     // Init drivers and modules
     spi_driver_init();
-    mcp2515_init();
+//    mcp2515_init(); 
+    canbus_controller_init(device_id, br_5kbpm);
+        
 
     while(1)
     {
         if (true == port_a_driver_pin_is_low(4))
         {
-            // Since only rx0 full is connected to the INT pin, I can safely presume that there is now data in the rx0 buffer
-            // In later iterations, I'll be unable to assume that, so will need to check the status flag to see what the interrupt was called for
-            mcp2515_driver_read_can_message(&receive_id, &receive_msg_len, receive_msg_buf);
-            mcp2515_driver_clear_rx0if();
-            
-            expected_id = ((receive_msg_buf[1] << 8) + receive_msg_buf[0]);
-            receive_command = ((receive_msg_buf[3] << 8) + receive_msg_buf[2]);
-
-            if (DEVICE_ID == expected_id)
+            if (true == canbus_controller_has_receive_data())
             {
-                switch (receive_command)
+                canbus_controller_read_buf();
+                canbus_controller_get_receive_msg(receive_msg_buf);
+                receive_command = receive_msg_buf[0] + (receive_msg_buf[1] << 8);
+                expected_id = receive_msg_buf[2] + (receive_msg_buf[3] << 8);
+
+                if ((0x0000 ==  receive_command) && (device_id == expected_id))
                 {
-                    case 0:
-                        // switch output
-                        if (0 == receive_msg_buf[4])
+                    // message for current device and command = switch pin
+                    if (0 == receive_msg_buf[4])
+                    {
+                        if (0 == receive_msg_buf[5])
                         {
-                            port_a_driver_turn_output_high(0);
+                            port_a_driver_turn_output_high(4);
                         }
-                        else if (1 == receive_msg_buf[4])
-                        {
-                            port_a_driver_turn_output_low(0);
+                        else if (1 == receive_msg_buf[5]){
+                            port_a_driver_turn_output_low(4);
                         }
-                        break;
-                    default:
-                        break;
+                    }
                 }
             }
+            //// Since only rx0 full is connected to the INT pin, I can safely presume that there is now data in the rx0 buffer
+            //// In later iterations, I'll be unable to assume that, so will need to check the status flag to see what the interrupt was called for
+            //mcp2515_driver_read_can_message(&receive_id, &receive_msg_len, receive_msg_buf);
+            //mcp2515_driver_clear_rx0if();
+            //
+            //expected_id = ((receive_msg_buf[1] << 8) + receive_msg_buf[0]);
+            //receive_command = ((receive_msg_buf[3] << 8) + receive_msg_buf[2]);
+
+            //if (DEVICE_ID == expected_id)
+            //{
+            //    switch (receive_command)
+            //    {
+            //        case 0:
+            //            // switch output
+            //            if (0 == receive_msg_buf[4])
+            //            {
+            //                port_a_driver_turn_output_high(0);
+            //            }
+            //            else if (1 == receive_msg_buf[4])
+            //            {
+            //                port_a_driver_turn_output_low(0);
+            //            }
+            //            break;
+            //        default:
+            //            break;
+            //    }
+            //}
         }
     }
         
