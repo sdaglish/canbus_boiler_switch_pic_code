@@ -97,7 +97,7 @@ int main(void)
     {
         if (true == port_a_driver_pin_is_low(4))
         {
-            if (true == canbus_controller_has_receive_data())
+            //if (true == canbus_controller_has_receive_data())
             {
                 canbus_controller_read_buf();
                 canbus_controller_get_receive_msg(receive_msg_buf);
@@ -111,10 +111,10 @@ int main(void)
                     {
                         if (0 == receive_msg_buf[5])
                         {
-                            port_a_driver_turn_output_high(4);
+                            port_a_driver_turn_output_high(0);
                         }
                         else if (1 == receive_msg_buf[5]){
-                            port_a_driver_turn_output_low(4);
+                            port_a_driver_turn_output_low(0);
                         }
                     }
                 }
