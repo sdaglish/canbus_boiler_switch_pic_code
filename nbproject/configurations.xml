@@ -8,6 +8,7 @@
         <itemPath>src/canbus/mcp2515_driver.h</itemPath>
         <itemPath>src/canbus/mcp2515_reg.h</itemPath>
         <itemPath>src/canbus/spi_driver.h</itemPath>
+        <itemPath>src/canbus/canbus_controller.h</itemPath>
       </logicalFolder>
       <logicalFolder name="io_drivers" displayName="io_drivers" projectFiles="true">
         <itemPath>src/io_drivers/port_a_driver.h</itemPath>
@@ -46,6 +47,7 @@
       <logicalFolder name="canbus" displayName="canbus" projectFiles="true">
         <itemPath>src/canbus/mcp2515_driver.c</itemPath>
         <itemPath>src/canbus/spi_driver.c</itemPath>
+        <itemPath>src/canbus/canbus_controller.c</itemPath>
       </logicalFolder>
       <logicalFolder name="io_drivers" displayName="io_drivers" projectFiles="true">
         <itemPath>src/io_drivers/port_a_driver.c</itemPath>
