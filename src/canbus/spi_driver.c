@@ -27,7 +27,7 @@ void spi_driver_init(void)
     
     // @ baud-rate = 500kHz
     SPI1BRGL = 0x000F;
-    SPI1BRGL = 0x0000;
+//    SPI1BRGL = 0x0000;
 
     SPI1CON1Lbits.SPIEN = 1;
 }
@@ -63,12 +63,12 @@ uint8_t spi_driver_exchange(uint8_t data)
 
 void spi_driver_cs_low(void)
 {
-    port_b_driver_turn_output_low(0);
+    port_a_driver_turn_output_low(2);
 }
 
 void spi_driver_cs_high(void)
 {
-    port_b_driver_turn_output_high(0);
+    port_a_driver_turn_output_high(2);
 }
 
 

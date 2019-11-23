@@ -18,3 +18,13 @@
 * With a few changes to the arduino send program, the canbus_controller module appears to be working as expected.
     * It is currently being tested while working as the boiler switch and I will do further updates to the module while I am waiting.
 
+### v2.2-changing_int_pin_from_mcp2515_away_from_pgd
+
+#### 21 November 2019
+
+TO BE IMPLEMENTED
+
+INT from the mcp2515 controller has been connected to pin 4 on the pic, which is also the PGD programming pin. This has been changed to pin 26 (RP15), which currently isn't conncected to anything.
+
+    This was causing problems where the pic could not be programmed up when pin 4 was connected as it should be.
+

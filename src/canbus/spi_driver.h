@@ -10,6 +10,7 @@
 #include <xc.h>
 #include <stdint.h>
 #include "../io_drivers/port_b_driver.h"
+#include "../io_drivers/port_a_driver.h"
 
 void spi_driver_init(void);
 uint8_t spi_driver_exchange(uint8_t data);

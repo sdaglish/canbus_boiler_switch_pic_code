@@ -64,27 +64,30 @@ int main(void)
 
     // Init pins
     // TODO Init spi pins
-    port_a_driver_set_pin_to_output(0);
+    port_b_driver_set_pin_to_output(6);
 
     port_b_driver_set_pin_to_output(0);
     port_b_driver_turn_output_high(0);
     port_b_driver_set_pin_to_output(1);
     port_b_driver_set_pin_to_input(2);
-    port_b_driver_set_pin_to_output(3);
+    port_b_driver_set_pin_to_input(3);
 
-    port_a_driver_set_pin_to_input(4);
+    port_b_driver_set_pin_to_input(15);
+
+    port_a_driver_set_pin_to_output(2);
+    port_b_driver_set_pin_to_output(14);
     
     ANSELB = 0X00;
 
     __builtin_write_OSCCONL(OSCCON & 0xbf);
     // RB0 = RP0 = CS 
-    _RP0R = 9; //SS1OUT;
+    //_RP0R = 9; //SS1OUT;
     // RB1 = RP1 = MOSI
-    _RP1R = 7; //SDO1;
+    _RP2R = 7; //SDO1;
     // RB2 = RP2 = MISO
-    _SDI1R = 2;
-    // RB3 = RP3 = SCK
-    _RP3R = 8; //SCK1OUT;
+    _SDI1R = 3;
+    // RB15 = RP14 = SCK
+    _RP14R = 8; //SCK1OUT;
     __builtin_write_OSCCONL(OSCCON | 0x40);
 
     // Init drivers and modules
@@ -95,7 +98,8 @@ int main(void)
 
     while(1)
     {
-        if (true == port_a_driver_pin_is_low(4))
+        //(NUM & (1<<N))
+        if (false == (PORTB & (1 << 15)))
         {
             //if (true == canbus_controller_has_receive_data())
             {
@@ -111,10 +115,10 @@ int main(void)
                     {
                         if (0 == receive_msg_buf[5])
                         {
-                            port_a_driver_turn_output_high(0);
+                            port_b_driver_turn_output_high(6);
                         }
                         else if (1 == receive_msg_buf[5]){
-                            port_a_driver_turn_output_low(0);
+                            port_b_driver_turn_output_low(6);
                         }
                     }
                 }

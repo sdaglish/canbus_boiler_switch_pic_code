@@ -21,8 +21,13 @@ bool canbus_controller_init(uint16_t id, baudrate_t br)
     }
     device_baudrate = br;
 
-    bool success = mcp2515_init();
+    bool success = false;
 
+    do 
+    {
+        success = mcp2515_init();
+
+    } while (false == success);
     return success;
 
 }

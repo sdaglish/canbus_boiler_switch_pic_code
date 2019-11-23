@@ -143,6 +143,21 @@ static bool set_register_bit(uint8_t address, uint8_t bit)
     return true; 
 }
 
+static bool clear_register_bit(uint8_t address, uint8_t bit)
+{
+    uint8_t status = read_register(address);
+
+    status = clear_bit(status, bit);
+    write_register(address, status);
+    uint8_t status2 = read_register(address);
+
+    if (status != status2)
+    {
+        return false;
+    }
+    return true; 
+}
+
 bool mcp2515_init(void)
 {
     cs_high();
@@ -382,6 +397,7 @@ void mcp2515_driver_read_can_message(uint16_t * id, uint8_t * len,
     }
 
     cs_high();
+  //  clear_register_bit(MCP_CANINTE, 0); 
 }
 
 bool mcp2515_driver_clear_rx0if(void)
